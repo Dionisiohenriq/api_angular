@@ -1,0 +1,20 @@
+[
+  {
+    "ContainingType": "AngularApi.Routes.PersonRoutes\u002B\u003C\u003Ec",
+    "Method": "\u003CMapPersonRoutes\u003Eb__1_0",
+    "RelativePath": "GetAllPerson",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AngularApi.Models.Person, AngularApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
