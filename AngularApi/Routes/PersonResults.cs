@@ -1,8 +1,8 @@
 using AngularApi.Data;
-using AngularApi.dto;
+using AngularApi.DTO;
 using AngularApi.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Namotion.Reflection;
 
 namespace AngularApi.Routes
 {
@@ -20,16 +20,29 @@ namespace AngularApi.Routes
             );
         }
 
-        public static async Task<IResult> GetPerson(int id, ApplicationDbContext db)
+        public static async Task<IResult> GetPerson(Guid id, ApplicationDbContext db)
         {
             return await db.Person.FindAsync(id) is Person person
                 ? TypedResults.Ok(new PersonDTO(person))
                 : TypedResults.NotFound();
         }
 
+        public static async Task<IResult> GetPersonByName(string name, ApplicationDbContext db)
+        {
+            return
+                await db.Person.FirstOrDefaultAsync(p => p.Name.StartsWith(name)) is Person person
+                ? TypedResults.Ok(new PersonDTO(person))
+                : TypedResults.NotFound();
+        }
+
         public static async Task<IResult> CreatePerson(PersonDTO personDTO, ApplicationDbContext db)
         {
-            Person person = new() { IsSoldier = personDTO.IsSoldier, Name = personDTO.Name! };
+            Person person =
+                new()
+                {                   
+                    IsSoldier = personDTO.IsSoldier,
+                    Name = personDTO.Name!,
+                };
 
             await db.Person.AddAsync(person);
             await db.SaveChangesAsync();
@@ -40,12 +53,12 @@ namespace AngularApi.Routes
         }
 
         public static async Task<IResult> UpdatePerson(
-            int id,
+            string id,
             PersonDTO inputPersonDTO,
             ApplicationDbContext db
         )
         {
-            Person? person = await db.Person.FindAsync(id);
+            Person? person = await db.Person.FindAsync(Guid.Parse(id));
             if (person is null)
                 return TypedResults.NotFound();
 

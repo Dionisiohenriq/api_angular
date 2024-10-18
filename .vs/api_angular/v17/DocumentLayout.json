@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Dev\\c_sharp_projects\\api_angular\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|c:\\dev\\c_sharp_projects\\api_angular\\angularapi\\routes\\personresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|solutionrelative:angularapi\\routes\\personresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|c:\\dev\\c_sharp_projects\\api_angular\\angularapi\\dto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|solutionrelative:angularapi\\dto\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|c:\\dev\\c_sharp_projects\\api_angular\\angularapi\\routes\\personroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|solutionrelative:angularapi\\routes\\personroutes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|c:\\dev\\c_sharp_projects\\api_angular\\angularapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|solutionrelative:angularapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|c:\\dev\\c_sharp_projects\\api_angular\\angularapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48BF019B-9E8C-49D4-9522-311201DE77E6}|AngularApi\\AngularApi.csproj|solutionrelative:angularapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "AngularApi\\Models\\Person.cs",
-              "ToolTip": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Models\\Person.cs",
-              "RelativeToolTip": "AngularApi\\Models\\Person.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T00:59:34.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Program.cs",
-              "RelativeDocumentMoniker": "AngularApi\\Program.cs",
-              "ToolTip": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Program.cs",
-              "RelativeToolTip": "AngularApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T00:59:16.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "PersonRoutes.cs",
               "DocumentMoniker": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Routes\\PersonRoutes.cs",
               "RelativeDocumentMoniker": "AngularApi\\Routes\\PersonRoutes.cs",
               "ToolTip": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Routes\\PersonRoutes.cs",
               "RelativeToolTip": "AngularApi\\Routes\\PersonRoutes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T00:57:25.205Z",
+              "WhenOpened": "2024-10-13T14:32:20.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "AngularApi\\Models\\Person.cs",
+              "ToolTip": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Models\\Person.cs",
+              "RelativeToolTip": "AngularApi\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T14:22:50.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonDTO.cs",
+              "DocumentMoniker": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\DTO\\PersonDTO.cs",
+              "RelativeDocumentMoniker": "AngularApi\\DTO\\PersonDTO.cs",
+              "ToolTip": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\DTO\\PersonDTO.cs",
+              "RelativeToolTip": "AngularApi\\DTO\\PersonDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T21:11:32.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonResults.cs",
+              "DocumentMoniker": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Routes\\PersonResults.cs",
+              "RelativeDocumentMoniker": "AngularApi\\Routes\\PersonResults.cs",
+              "ToolTip": "C:\\Dev\\c_sharp_projects\\api_angular\\AngularApi\\Routes\\PersonResults.cs",
+              "RelativeToolTip": "AngularApi\\Routes\\PersonResults.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T21:10:01.118Z",
               "EditorCaption": ""
             }
           ]

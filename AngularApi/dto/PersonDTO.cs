@@ -1,16 +1,22 @@
 using AngularApi.Models;
+using Newtonsoft.Json;
 
-namespace AngularApi.dto
+namespace AngularApi.DTO
 {
     public class PersonDTO
     {
-        public int Id { get; set; }
+        [JsonProperty("id")]
+        public string Id { get; set; }
+
+        [JsonProperty("name")]
         public string? Name { get; set; }
+
+        [JsonProperty("isSoldier")]
         public bool IsSoldier { get; set; }
 
         public PersonDTO() { }
 
         public PersonDTO(Person person) =>
-            (Id, Name, IsSoldier) = (person.Id, person.Name, person.IsSoldier);
+            (Id, Name, IsSoldier) = (person.Id.ToString(), person.Name, person.IsSoldier);
     }
 }

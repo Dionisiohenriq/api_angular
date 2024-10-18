@@ -12,9 +12,10 @@ public static class PersonRoutes
 
         persons.MapGet("/", PersonResults.GetAllPersons);
         persons.MapGet("/soldiers", PersonResults.GetSoldierPersons);
-        persons.MapGet("/{id}", PersonResults.GetPerson);
+        persons.MapGet("/getById/{id:guid}", PersonResults.GetPerson);
+        persons.MapGet("/getByName/{name}", PersonResults.GetPersonByName);
         persons.MapPost("/", PersonResults.CreatePerson);
-        persons.MapPut("/{id}", PersonResults.UpdatePerson);
-        persons.MapDelete("/{id}", PersonResults.DeletePerson);
+        persons.MapPut("/{id:guid}", PersonResults.UpdatePerson);
+        persons.MapDelete("/{id:guid}", PersonResults.DeletePerson);
     }
 }
